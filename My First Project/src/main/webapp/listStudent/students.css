@@ -1,0 +1,120 @@
+
+*{
+	padding: 0;
+	margin:0;
+	box-sizing: border-box;
+	font-family: 'sans-serif';
+}
+
+header{
+	padding: 1rem 1.5rem;
+	background-color: #008000;
+	text-align:center;
+	font-family: 'Sans-serif';
+	font-weight: 400;
+}
+
+h1{
+	text-transform: uppercase;
+	font-size:24px;
+	color: #eee;
+	text-align: center;
+}
+
+table{
+	margin: 0 auto;
+	margin-top: 2rem;
+	border-collapse:collapse;
+}
+thead tr{
+	background-color:#008000;
+	font-size: 16px;
+	color: #ddd;
+}
+td{
+	padding: 0.5rem 0.8rem;
+}
+ tbody
+ {
+ 	font-size: 14px;
+ 	color: #333;
+ }
+ 
+ tr td{
+ 	border: 0.2px solid #bbb;
+ }
+ 
+.form-container{
+ 	width: 300px !important;
+ 	margin: 0 auto;
+ 	margin-top:20px;
+ }
+ 
+ .errors-container,
+ .success-container{
+ 		width: 450px !important;
+	 	margin: 0 auto;
+	 	margin-top:20px;
+	 	color: red;
+	 	line-height: 1.8;
+	 	text-align: center;
+ }
+ 
+ .success-container{
+ 	background-color: #32de84;
+ 	padding: 0 5px;
+ 	border-radius: 5px;
+}
+ 
+ .success-message{
+ 	color: #222;
+ 	font-size: 16px;
+ 	font-weight: bold;
+ }
+ 
+ .error-message{
+ 	font-size: 14px;
+ }
+ 
+ input{
+ 	width: 300px;
+ 	outline: none;
+ 	border: 0.2px solid #888;
+ 	border-radius:3px;
+ 	padding: 5px 10px;
+ 	color: #333;
+ 	font-size: 14px;
+ 	margin: 0 auto;
+ 	margin-bottom:14px;
+ }
+ 
+ input:focus{
+ 	border: 2px solid #888;
+ }
+ 
+ .form-control-group{
+ 	display: grid;
+ 	grid-template-columns: 1fr;
+ 	row-gap: 10px;
+ }
+ 
+ label{
+ 	font-size: 14px;
+ 	color:#555;
+ }
+ 
+ .btn-submit{
+ 	cursor: pointer;
+ }
+ .btn-submit{
+ 	width:120px;
+ 	margin: 0 auto;
+ 	background-color: #008000;
+ 	color: #fff;
+ 	transition: all 0.2s;
+ }
+ 
+ 
+  .btn-submit:hover{
+ 	background-color: #009d00;
+ }

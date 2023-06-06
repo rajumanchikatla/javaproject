@@ -1,0 +1,32 @@
+nav{
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	padding: 10px 20px;
+	background-color: #008000;
+	color: #ddd;
+}
+nav h2{
+	color: #ddd;
+}
+ul{
+	display: flex;
+	align-items: space-between;
+}
+
+li{
+	list-style: none;
+	display: inline-block;
+	margin-right:20px;
+}
+
+li a{
+	text-decoration: none;
+	color: #ccc;
+	font-size: 16px;
+	transition: all 0.2s;
+}
+
+li a:hover{
+	color: #fff;
+}

@@ -1,0 +1,11 @@
+
+<nav>
+	<h2>Student System</h2>
+	<div>
+		<ul>
+			<li><a href="students?subAction=LIST_STUDENT">List Students</a></li>
+			<li><a href="students?subAction=ADD_STUDENT">Add Student</a></li>
+			<li><a href="students?subAction=SEARCH_SCREEN">Search Student</a></li>
+		</ul>
+	</div>
+</nav>
