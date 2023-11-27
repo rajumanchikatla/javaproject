@@ -54,7 +54,6 @@ public class StudentDaoImpl implements StudentDao {
 	}
 
 
-	@Override
 	public int addStudent(Student s) {
 		int count = -1;
 		Connection conn = null;
@@ -82,7 +81,6 @@ public class StudentDaoImpl implements StudentDao {
 		return count;
 	}
 
-	@Override
 	public Student getStudent(Long id) {
 		Connection conn = null;
 		Student student = null;
@@ -109,7 +107,6 @@ public class StudentDaoImpl implements StudentDao {
 		return student;
 	}
 
-	@Override
 	public int updateStudent(Student s) {
 		int count = -1;
 		Connection conn = null;
@@ -134,7 +131,6 @@ public class StudentDaoImpl implements StudentDao {
 		return count;
 	}
 
-	@Override
 	public int deleteStudent(Long id) {
 		Connection conn = null;
 		try {
@@ -153,7 +149,6 @@ public class StudentDaoImpl implements StudentDao {
 		return -1;
 	}
 
-	@Override
 	public List<Student> searchStudents(Student student) {
 		Connection conn = null;
 		List<Student> studentList = new ArrayList<Student>();
